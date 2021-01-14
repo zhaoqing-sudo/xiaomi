@@ -1,0 +1,115 @@
+.logo {
+    width: 100%;
+    height: 98px;
+}
+
+.logo>img {
+    display: block;
+    padding-left: 242px;
+    padding-bottom: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 588px;
+    background-color: #ebfdff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner>img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.login {
+    width: 410px;
+    height: 558px;
+    margin-top: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+
+.ipone_login {
+    color: #f56600;
+    text-align: center;
+}
+
+.dl_type {
+    width: 410px;
+    height: 83px;
+}
+
+.dl_type>div {
+    padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+}
+
+.dl_type>div>a {
+    padding: 0 24px;
+}
+
+.labolbox>input {
+    margin-bottom: 28px;
+    border: 1px solid #e0e0e0;
+    width: 306px;
+    height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    margin-left: 40px;
+}
+
+.labolbox>.dlbt {
+    background-color: #ff6700;
+    width: 340px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin-bottom: 28px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.footer {
+    height: 100px;
+    padding-top: 100px;
+}
+
+.footer>ul {
+    margin-left: 500px;
+}
+
+.footer>ul>li {
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #666;
+}
+
+.footer>ul>li:hover {
+    color: black;
+}
+
+.footer>div {
+    padding-top: 40px;
+    text-align: center;
+    margin-left: -100px;
+}
+
+.footer>div>a {
+    color: #666;
+    font-size: 14px;
+}

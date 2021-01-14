@@ -1,0 +1,88 @@
+body {
+    background: #f9f9f9;
+    color: #666;
+    height: 100%;
+}
+
+.box {
+    width: 854px;
+    height: 549px;
+    background-color: #fff;
+    margin: 50px auto;
+    font-size: 14px;
+}
+
+.miLogo>img {
+    display: block;
+    margin: 0 auto;
+}
+
+.box>h3 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.phoneNum {
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.labolbox>input {
+    margin-bottom: 28px;
+    border: 1px solid #e0e0e0;
+    width: 306px;
+    height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    margin-left: -40px;
+}
+
+.labolbox>.reg {
+    background-color: #ff6700;
+    width: 340px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin-bottom: 28px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: -40px;
+}
+
+.box>p>i {
+    font-weight: 900;
+    color: black;
+}
+
+.footer>ul {
+    margin-left: 550px;
+}
+
+.footer>ul>li {
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #666;
+}
+
+.footer>ul>li:hover {
+    color: black;
+}
+
+.footer>div {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.footer>div>a {
+    color: #666;
+    font-size: 14px;
+}

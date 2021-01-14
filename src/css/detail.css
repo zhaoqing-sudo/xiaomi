@@ -1,0 +1,358 @@
+.link-category:hover span {
+    color: #ff6700;
+}
+
+
+/* 放大镜 */
+
+.box {
+    width: 450px;
+    height: 600px;
+    border: 1px solid #b0b0b0;
+    margin: 50px 50px 50px 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 30;
+}
+
+.box>.show {
+    width: 100%;
+    height: 450px;
+    border-bottom: 1px solid #b0b0b0;
+    position: relative;
+    cursor: none;
+}
+
+.box>.show>img {
+    width: 100%;
+    height: 450px;
+}
+
+.box>.show>.mask {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    pointer-events: none;
+    display: none;
+}
+
+.box>.list {
+    flex: 1;
+    box-sizing: border-box;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.box>.list>p {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #b0b0b0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.box>.list>p>img {
+    width: 80px;
+    height: 80px;
+}
+
+.box>.list>p.active {
+    border-color: orange;
+}
+
+.box>.enlarge {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 110%;
+    top: 0;
+    border: 1px solid #b0b0b0;
+    /* background-image: url(../images/enlarge/2.big.jpg); */
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 800px 800px;
+    display: none;
+    z-index: 25;
+}
+
+
+/* 商品详情 */
+
+.goodsInfo {
+    width: 600px;
+    position: absolute;
+    right: 150px;
+    top: 180px;
+}
+
+.goodsInfo>.goodsName {
+    font-size: 24px;
+    font-weight: 400;
+    color: #212121;
+    margin-bottom: 15px;
+}
+
+.goodsInfo>.desc {
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 20px;
+    text-indent: 2em;
+}
+
+.btn-size {
+    margin-top: 30px;
+}
+
+.goodsInfo>.btn-size>p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.goodsInfo>.btn-size>button {
+    width: 280px;
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+    background-color: #fff;
+    border: 1px solid #b0b0b0;
+    outline: none;
+}
+
+.goodsInfo>.btn-size>button:hover {
+    border-color: #ff6700;
+    color: #ff6700;
+}
+
+.goodsInfo>.price {
+    color: #ff6700;
+    font-size: 24px;
+    width: 180px;
+    height: 50px;
+    background-color: #f9f9fa;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px 5px;
+}
+
+
+/* .goodsInfo>.num {
+    margin: 20px 0 0 10px;
+}
+
+.goodsInfo>.num>button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #b0b0b0;
+    outline: none;
+}
+
+.goodsInfo>.num>button:hover {
+    border-color: #ff6700;
+    color: #ff6700;
+}
+
+.goodsInfo>.num>input {
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+} */
+
+.goodsInfo>.goShopping>button {
+    margin: 30px 20px 0 20px;
+    width: 200px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    color: #f25807;
+    border: 1px solid #f25807;
+    outline: none;
+    background-color: #fff;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.goodsInfo>.goShopping>button:hover {
+    background-color: #f25807;
+    color: #fff;
+}
+
+.footOne {
+    width: 1226px;
+    height: 80px;
+    margin: 150px auto 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.footOne>ul>li {
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.footOne>ul>li:hover {
+    color: #ff6770;
+}
+
+.footOne>ul>li:first-child {
+    border: none;
+}
+
+.footTwo {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    color: #666;
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+.footTwo>dl>dt {
+    margin: -1px 0 26px;
+    font-size: 14px;
+    color: #424242;
+}
+
+.footTwo>dl>dd:hover {
+    cursor: pointer;
+    color: #ff6770;
+}
+
+.footThr {
+    width: 250px;
+    height: 130px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+
+.footThr>p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.footThr>p:first-child {
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+
+.footThr>p:nth-child(3) {
+    width: 118px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+    border: 1px solid #ff6770;
+    color: #ff6700;
+    cursor: pointer;
+    margin-left: 65px;
+    transition: all .4s;
+}
+
+.footThr>p:nth-child(3):hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+.footThr>p:last-child>span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footThr>p:last-child>span:hover {
+    color: #ff6700;
+}
+
+.footEnd {
+    width: 1226px;
+    position: relative;
+    background-color: #fafafa;
+    margin: 50px auto 0;
+}
+
+.footEnd>img {
+    display: block;
+    width: 57px;
+    height: 57px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.footEnd>div {
+    position: absolute;
+    left: 70px;
+    top: 0;
+}
+
+.footEnd>div>ul {
+    padding-bottom: 10px;
+}
+
+.footEnd>div>ul>li {
+    float: left;
+    color: #757575;
+    font-size: 12px;
+    line-height: 12px;
+    border-left: 1px solid #999;
+    padding: 0 7px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.footEnd>div>ul>li:first-child {
+    border: none;
+}
+
+.footEnd>div>ul>li:hover {
+    color: #ff6700;
+}
+
+.footEnd>div>p {
+    line-height: 18px;
+    color: #b0b0b0;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+}
+
+.footEnd>div>p:hover {
+    color: #ff6700;
+}
+
+.footImg {
+    width: 370px;
+    height: 19px;
+    margin: 30px auto;
+    background: url(../images/footer.png) no-repeat;
+}
